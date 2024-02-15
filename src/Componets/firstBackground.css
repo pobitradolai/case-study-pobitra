@@ -1,0 +1,99 @@
+h1 {
+  color: white;
+}
+.navbutton{
+  /* background-color: #26a7b4; */
+  background-image: linear-gradient(to left top, #051021, #022251, #282d81, #612eaa, #a609c9);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 150px;
+}
+p{
+  text-transform: uppercase;
+  color: rgb(177 182 196);
+  font-weight: bold;
+}
+ul {
+  display: flex;
+  margin-left: 490px;
+}
+ul li {
+  display: flex;
+  color: white;
+  margin: 13px;
+  cursor: pointer;
+}
+
+.firstBackground {
+  margin-top: -20px;
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #082869,
+    #34339b,
+    #6d32c7,
+    #b112eb
+  );
+
+  width: auto;
+  height: 600px;
+}
+.Nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.Nav button {
+  margin-top: 22px;
+}
+
+.HomeIndex{
+  display: flex;
+  margin: 40px;
+}
+.indexword{
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+h3{
+  color: white;
+}
+/* .indexpic img{
+  
+} */
+
+.button1{
+  background-color: #26a7b4;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 200px;
+}
+.button2{
+  background-color: #07245b;
+  border: 1.5px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 200px;
+}
