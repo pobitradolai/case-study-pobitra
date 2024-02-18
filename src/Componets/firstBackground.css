@@ -1,6 +1,7 @@
 h1 {
   color: white;
 }
+
 .navbutton{
   /* background-color: #26a7b4; */
   background-image: linear-gradient(to left top, #051021, #022251, #282d81, #612eaa, #a609c9);
@@ -96,4 +97,40 @@ h3{
   margin: 4px 2px;
   cursor: pointer;
   width: 200px;
+}
+
+@media only screen and (max-width:390px){
+
+  .firstBackground{
+   height: auto;
+   width: auto;
+  }
+.indexpic img{
+  display: none;
+}
+.Nav {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: space-between;
+  flex-wrap: nowrap;
+}
+.Nav button {
+  margin-top: 22px;
+}
+ul {
+  display: flex;
+    margin-left: -58px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+ul li {
+  display: flex;
+  color: white;
+  margin: 13px;
+  cursor: pointer;
+}
+
+
 }

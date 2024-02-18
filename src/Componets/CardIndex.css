@@ -65,3 +65,48 @@
     width: 145px;
     height: 43px;
 }
+
+@media only screen and (max-width:390px){
+  .card {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+  }
+  .card3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .cardbutton{
+    background-color: #171d79;
+    border: none;
+    color: white;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 100px;
+    cursor: pointer;
+    width: 145px;
+    height: 43px;
+}
+}

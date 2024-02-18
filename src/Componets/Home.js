@@ -10,6 +10,7 @@ export const Home = () => {
       <div className="firstBackground">
         <div className="Nav">
           <h1>Pobitra</h1>
+          {/* <hr/> */}
           <ul>
             <li>Home</li>
             <li>About us</li>
